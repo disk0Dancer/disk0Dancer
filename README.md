@@ -10,14 +10,17 @@
 ```python
 class Me:
   education: 'BS, Software Engineering (2021-2025)'
-  languages: [
-    '🇬🇧 English',
-    '🇷🇺 Russian',
-    '🐍 Python',
-    '🕸 JavaScript',
-    '🤖 C++',
-    '🏃 Go',
-  ]
+  languages: {
+      "speak": [
+        '🇬🇧 English',
+        '🇷🇺 Russian',
+      ],
+      "code": [
+        '🐍 Python',
+        '🏃 Go',
+        '🕸 JavaScript',
+      ],
+  }
   verticals: [
     '👀 Natural Language Preprocessing',
     '🧠 Brain-Computer Interfaces',
